@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Cronus';
+  src: url(./Typography/Cronus\ Round.otf);
+}
+                
+.icon-link{
+  display: inline-flex;
+  gap: .375;
+  align-items: center;
+  text-decoration-color: #FFC208;
+  text-decoration: none;
+  backface-visibility: hidden;
+  &:hover{
+    color: black;
+  }
+}
+
+  .bi {
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    fill: currentcolor;
+  }
+
+.icon-link-hover {
+  &:hover,
+  &:focus-visible {
+    > .bi {
+      transform: translate3d(.25em, 0, 0);
+    }
+  }
+}
+
+.specs{
+  border-left: 3px solid;
+}
+
+li{
+  padding-left: 15px;
+}
+
+.mylogo{
+  border-radius: 25%;
+}
+
+.welcome{
+    font-family: cronus;    
+    color: #66bfbf !important;                                      
+}
+.front-text{
+  font-family: 'Adios Script Pro', sans-serif;
+  font-size: large;
+  font-weight: 700;  
+}
+
+.ed_heading{
+  display: flex;
+  align-items: center;
+  font-family: trajan;
+  color: #66bfbf !important;
+}
+
+.ed_para{
+  font-family: trajan;
+  font-size: large;
+}
+
+.sk_heading{
+  font-family: trajan;  
+  font-weight: 700;   
+  color: #66bfbf !important;                                    
+}
+
+.sk_para{
+  font-family: trajan;
+  font-size: 18px;
+}
+
+.Header{
+  background-image: url(./Images/bg3.jpg);
+}
+
+.footer{
+  background-color: #c0c0c0;
+  color: #66bfbf;
+}
+body{
+  background-color: #dcdcdc;
+}
+
